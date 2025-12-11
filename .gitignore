@@ -1,0 +1,28 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore any data or corpus material if added later
+*.db
+*.sqlite
+*.sqlite3
+data/
+corpus/
+txt_output/
+Outputs/
+audio/
+audio_raw/
+segments/
+raw/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS junk
+.DS_Store
